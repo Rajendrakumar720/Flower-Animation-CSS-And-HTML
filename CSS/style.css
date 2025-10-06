@@ -1,0 +1,234 @@
+.parent{
+    height: 500px;
+    width: 500px;
+    /* background: red; */
+    margin: 200px auto;
+    position: relative;
+    animation-name: colorfullflower;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes colorfullflower{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(-359deg);
+
+    }
+}
+.parent >div{
+    position:absolute;
+    left: 0px;
+    right:0px
+}
+.common{
+    height: 250px;
+    width: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    transform-origin: right bottom;
+    opacity: 0.7;
+
+}
+.flower1{
+    background: #000;
+    transform: rotateZ(0deg);
+
+}
+.flower2{
+   
+    background: #832b2b;
+    transform: rotateZ(10.9deg);
+   
+
+}
+.flower3{
+   
+   background: AliceBlue;
+   transform: rotateZ(21.8deg);
+}
+.flower4{
+   
+   background:AntiqueWhite;
+   transform: rotateZ(32.7deg);
+
+}
+.flower5{
+   
+   background: Aqua;
+   transform: rotateZ(43.6deg);
+}
+.flower6{
+   
+   background: Aquamarine;
+   transform: rotateZ(54.5deg);
+
+}
+.flower7{
+   
+   background: Azure;
+   transform: rotateZ(65.4deg);
+}
+.flower8{
+   
+   background:blue;
+   transform: rotateZ(76.3deg);
+}
+.flower9{
+   
+   background: BlanchedAlmond;
+   transform: rotateZ(87.2deg);
+}
+.flower9{
+   
+   background: skyblue;
+   transform: rotateZ(98.1deg);
+}
+.flower10{
+   
+   background: BlueViolet;
+   transform: rotateZ(109deg);
+
+}
+.flower11{
+   
+   background: Brown;
+   transform: rotateZ(119.9deg);
+
+}
+.flower12{
+   
+   background: BurlyWood;
+   transform: rotateZ(130.8deg);
+
+}
+.flower13{
+   
+   background: CadetBlue;
+   transform: rotateZ(141.7deg);
+
+}
+.flower14{
+   
+   background: Chartreuse;
+   transform: rotateZ(152.6deg);
+}
+.flower15{
+   
+   background: Coral;
+   transform: rotateZ(163.5deg);
+}
+
+.flower16{
+   
+   background: CornflowerBlue;
+   transform: rotateZ(174.4deg);
+
+}
+.flower17{
+   
+   background: Cyan;
+   transform: rotateZ(185.3deg);
+
+}
+.flower18{
+   
+   background: rgb(153, 75, 157);
+   transform: rotateZ(196.2deg);
+
+}
+.flower19{
+   
+   background: Gold;
+   transform: rotateZ(207.1deg);
+}
+.flower20{
+   
+   background: Gray;
+   transform: rotateZ(218deg);
+}
+.flower21{
+   
+   background: GreenYellow;
+   transform: rotateZ(228.9deg);
+
+}
+.flower22{
+   
+   background: HotPink;
+   transform: rotateZ(239.8deg);
+
+}
+.flower23{
+   
+   background: Indigo;
+   transform: rotateZ(250.7deg);
+   
+}
+.flower24{
+   
+   background: Khaki;
+   transform: rotateZ(261.6deg);
+
+}
+.flower24{
+   
+   background: LightCoral;
+   transform: rotateZ(272.5deg);
+
+}
+.flower25{
+   
+   background: LightSlateGray;
+   transform: rotateZ(283.4deg);
+
+}
+.flower26{
+   
+   background: Magenta;
+   transform: rotateZ(294.3deg);
+
+}
+.flower27{
+   
+   background:MidnightBlue;
+   transform: rotateZ(305.2deg);
+}
+.flower28{
+   
+   background: OliveDrab;
+   transform: rotateZ(316.1deg);
+
+}
+.flower29{
+   
+   background: SeaGreen;
+   transform: rotateZ(327deg);
+
+}
+.flower30{
+   
+   background: SteelBlue;
+   transform: rotateZ(337.9deg);
+
+}
+.flower31{
+   
+   background: Turquoise;
+   transform: rotateZ(348.8deg);
+
+}
+.flower32{
+   
+   background: Wheat;
+   transform: rotateZ(358.7deg);
+
+}.flower33{
+   
+   background: Teal;
+   transform: rotateZ(3369.6deg);
+
+}
